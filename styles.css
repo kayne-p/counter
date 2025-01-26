@@ -47,6 +47,7 @@ button:hover {
 }
 
 #resetBtn {
+    margin-top: 5px;
     width: 205px !important;
 }
 
