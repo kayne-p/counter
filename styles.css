@@ -1,6 +1,9 @@
+* {
+    color: #000000;
+}
+
 body {
     font-family: Helvetica;
-    color: #000000;
 }
 
 h1 {
