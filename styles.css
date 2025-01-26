@@ -1,5 +1,5 @@
 * {
-    color: #000000;
+    color: #000000 !important;
 }
 
 body {
@@ -20,6 +20,7 @@ h1 {
 button {
     font-size: 2em;
     font-weight: bold;
+    color: #000000 !important;
     border: solid rgba(0, 0, 0, 0%);
     border-radius: 10px;
     cursor: pointer;
