@@ -4,6 +4,8 @@
 
 body {
     font-family: Helvetica;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 h1 {
@@ -12,9 +14,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+.counter {
+    text-align: center;
+}
+
 #numLabel {
     display: block;
     font-size: 4em;
+    font-weight: bold;
 }
 
 button {
@@ -40,7 +47,7 @@ button:hover {
 }
 
 #incrementBtn:hover {
-    background-color: rgba(0, 255, 0, 50%);
+    opacity: 50%;
 }
 
 #decrementBtn {
@@ -48,7 +55,7 @@ button:hover {
 }
 
 #decrementBtn:hover {
-    background-color: rgba(255, 0, 0, 50%);
+    opacity: 50%;
 }
 
 #resetBtn {
@@ -56,6 +63,18 @@ button:hover {
     width: 205px !important;
 }
 
-.counter {
+#resetBtn:hover {
+    opacity: 50%;
+}
+
+#allowNegativeBtn {
     text-align: center;
+    width: 205px !important;
+    font-size: 1.2em;
+    margin-top: 5px;
+    background-color: #ff0000;
+}
+
+#allowNegativeBtn:hover {
+    opacity: 50%;
 }
